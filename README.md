@@ -1,4 +1,4 @@
-axe_hash (python) v1.3.1
+AXE Hash (python) v1.3.1
 ===========================
 
 Python module for Axe's X11 hashing.
