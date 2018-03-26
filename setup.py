@@ -18,7 +18,6 @@ axe_hash_module = Extension('axe_hash',
 
 setup (name = 'axe_hash',
        version = '1.3.1',
-       packages = ['axe_hash'],
        description = 'Binding for Axe X11 proof of work hashing.',
        author = 'charlie137',
        author_email = 'charlesrocket@gmail.com',
