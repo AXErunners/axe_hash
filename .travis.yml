@@ -1,5 +1,3 @@
-#
-sudo: true
 language: python
 matrix:
   include:
@@ -16,7 +14,6 @@ env:
 script:
   - $PIP install cibuildwheel==0.6.0
   - cibuildwheel --output-dir wheelhouse
-  - python setup.py install
   - |
     if [[ $TRAVIS_TAG ]]; then
       $PIP install twine
