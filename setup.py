@@ -18,6 +18,6 @@ axe_hash_module = Extension('axe_hash',
 
 setup (name = 'axe_hash',
        version = '1.3.3',
-       description = 'Binding for Axe X11 proof of work hashing.',
-       url='https://github.com/axerunners/axe_hash',
+       description = 'Binding for AXE X11 proof of work hashing.',
+       url = 'https://github.com/axerunners/axe_hash',
        ext_modules = [axe_hash_module])
