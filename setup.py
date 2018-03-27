@@ -17,7 +17,7 @@ axe_hash_module = Extension('axe_hash',
                                include_dirs=['.', './sha3'])
 
 setup (name = 'axe_hash',
-       version = '1.3.3',
+       version = '1.3.4',
        description = 'Binding for AXE X11 proof of work hashing.',
        url = 'https://github.com/axerunners/axe_hash',
        ext_modules = [axe_hash_module])
