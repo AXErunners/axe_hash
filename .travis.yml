@@ -9,7 +9,7 @@ python:
 
 
 install:
-  - pip install axe-hash
+  - sudo pip install axe-hash
 
 script:
   - python test.py
