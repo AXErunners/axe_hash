@@ -1,4 +1,3 @@
-#
 sudo: true
 language: python
 python:
@@ -9,7 +8,7 @@ python:
 
 
 install:
-  - sudo pip install axe-hash
+  - pip install axe-hash
 
 script:
   - python test.py
