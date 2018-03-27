@@ -1,4 +1,4 @@
-from setuptools import setup, Extension
+from distutils.core import setup, Extension
 
 axe_hash_module = Extension('axe_hash',
                                  sources = ['axemodule.c',
