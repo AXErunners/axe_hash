@@ -1,12 +1,24 @@
+#
 sudo: true
 language: python
-python:
-  - "2.7"
-  - "3.5"
-  - "3.6"
-
-install:
-  - pip install axe-hash
-
+matrix:
+  include:
+    - sudo: required
+      services:
+        - docker
+      env: PIP=pip
+    - os: osx
+      language: generic
+      env: PIP=pip2
+env:
+  global:
+    - TWINE_USERNAME=charlie137
+  
 script:
-  - python test.py
+  - $PIP install cibuildwheel==0.6.0
+  - cibuildwheel --output-dir wheelhouse
+  - |
+    if [[ $TRAVIS_TAG ]]; then
+      $PIP install twine
+      python -m twine upload wheelhouse/*.whl
+    fi
