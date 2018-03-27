@@ -9,7 +9,7 @@ python:
 cache: false
 
 install:
-  - python setup.py install
+  - pip install axe-hash
 
 script:
   - python test.py
