@@ -13,10 +13,6 @@ matrix:
 env:
   global:
     - TWINE_USERNAME=charlie137
-python:
-  - "2.7"
-  - "3.5"
-  - "3.6"
 
 cache: false
 
