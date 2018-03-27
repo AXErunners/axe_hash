@@ -1,8 +1,9 @@
 AXE Hash
 ===========================
 
-Python module for Axe's X11 hashing.
+Python module for Axe's X11 hashing.<br />
 
+[![PyPI version](https://badge.fury.io/py/axe-hash.svg)](https://badge.fury.io/py/axe-hash)<br />
 [![Build Status](https://travis-ci.org/AXErunners/axe_hash.svg?branch=master)](https://travis-ci.org/AXErunners/axe_hash)
 
 Install
