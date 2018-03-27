@@ -15,7 +15,7 @@ env:
     - TWINE_USERNAME=charlie137
   
 script:
-  - $PIP install cibuildwheel==0.6.0
+  - $PIP install cibuildwheel==0.7.0
   - cibuildwheel --output-dir wheelhouse
   - |
     if [[ $TRAVIS_TAG ]]; then
