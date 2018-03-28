@@ -11,7 +11,7 @@ Install
 
 Python 2.7+ or 3.5+ is required as well as a gcc.
 
-    `pip install axe-hash`
+    pip install axe-hash
 
 
 Test
