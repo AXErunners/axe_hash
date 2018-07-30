@@ -82,4 +82,3 @@ void axe_hash(const char* input, int len, char* output)
     memcpy(output, hashA, 32);
 
 }
-
