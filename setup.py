@@ -1,4 +1,4 @@
-from setuptools import setup, Extension
+from distutils.core import setup, Extension
 
 axe_hash_module = Extension('axe_hash',
                                  sources = ['axemodule.c',
@@ -17,9 +17,6 @@ axe_hash_module = Extension('axe_hash',
                                include_dirs=['.', './sha3'])
 
 setup (name = 'axe_hash',
-       version = '1.3.7',
+       version = '1.3.8',
        description = 'Binding for AXE X11 proof of work hashing.',
-       long_description= 'Python module for AXE X11 hashing.',
-       license='MIT',
-       url = 'https://github.com/axerunners/axe_hash',
        ext_modules = [axe_hash_module])
