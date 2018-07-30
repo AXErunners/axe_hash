@@ -1,7 +1,7 @@
 AXE Hash
 ===========================
 
-Python module for Axe's X11 hashing.
+Python module for AXE's X11 hashing.
 
 
 Install
