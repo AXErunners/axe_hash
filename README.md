@@ -1,17 +1,15 @@
 AXE Hash
 ===========================
 
-Python module for Axe's X11 hashing.<br />
+Python module for Axe's X11 hashing.
 
-[![PyPI version](https://badge.fury.io/py/axe-hash.svg)](https://badge.fury.io/py/axe-hash)<br />
-[![Build Status](https://travis-ci.org/AXErunners/axe_hash.svg?branch=master)](https://travis-ci.org/AXErunners/axe_hash)
 
 Install
 -------
 
 Python 2.7+ or 3.5+ is required as well as a gcc.
 
-    pip install axe-hash
+    $ sudo python setup.py install
 
 
 Test
@@ -25,3 +23,6 @@ Credits
 -------
 
 * Module written by @chaeplin https://github.com/chaeplin/xcoin-hash
+* Module maintained by @eduffield https://github.com/darkcoinproject/xcoin-hash
+* Module maintained by @flare https://github.com/nightlydarkcoin/xcoin-hash
+* Module maintained by @vertoe https://github.com/vertoe/darkcoin_hash
